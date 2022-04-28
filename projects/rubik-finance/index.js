@@ -58,7 +58,7 @@ async function treasury(timestamp, block, chainBlocks) {
   return { [`fantom:${rubikTokenAddress}`] : balance }
 }
 module.exports = {
-  methodology: "Pool2 deposits consist of RUBIK/FTM and RSHARE/FTM LP tokens deposits while the staking TVL consists of the RSHARES tokens locked within the Boardroom contract(0x7617Ca396262B4Ada6c13a42c9e1BA0AEED11996).",
+  methodology: "Pool2 deposits consist of RUBIK/FTM and RSHARE/FTM LP tokens deposits while the staking TVL consists of the RSHARE's tokens locked within the Boardroom contract(0x7617Ca396262B4Ada6c13a42c9e1BA0AEED11996).",
   fantom: {
     tvl: async () => ({}),
     pool2: ftmPool2,
